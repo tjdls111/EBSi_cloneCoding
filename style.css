@@ -76,7 +76,7 @@ video{
 
 .logoAndMypage{
   display: flex;
-  justify-content: center;
+
   align-items: center;
 }
 
@@ -91,12 +91,16 @@ video{
   font-size: var(--mediumFont);
   font-weight: bold;
 }
+
+.search{
+
+}
 .myPage{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   font-size: var(--smallerFont);
   font-weight: bold;
+  padding: 10px;
+
 }
 
 .grade{
@@ -104,7 +108,7 @@ video{
   justify-content: flex-start;
   font-size: var(--largeFont);
   font-weight: bold;
-  margin: 1%;
+  margin-bottom:10px;
 }
 
 nav{
@@ -138,12 +142,28 @@ nav{
   justify-content: space-around;
 }
 
-.ad{
-  display: block;
-
+.adBig{
+  justify-content:space-around;
+  border-style: solid;
+  border-width: thick;
+  border-color: var(--lightGreyColor);
 }
+
+.ad{
+
+  display: block;
+  border-style: solid;
+  border-width: thick;
+  border-color: var(--lightGreyColor);
+}
+
+
 .event{
   display: flex;
   justify-content: space-around;
   padding:0;
+}
+
+.hash{
+  font-size: var(--smallFont);
 }
