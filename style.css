@@ -1,0 +1,69 @@
+:root{
+  greenColor:#3f9c87;
+  lightYellowColor:#fdf4b9;
+  whiteColor:#fffffe;
+  lightGreyColor:#f7f7f7;
+  lightOrangeColor:#ffb471;
+  blackColor:#515151;
+
+  largeFont:40%;
+  mediumFont:30%
+  smallFont:10%
+}
+
+*{
+
+}
+
+li{
+  list-style: none;
+}
+
+.otherSiteAndLogin{
+  display:flex;
+  justify-content: space-between;
+}
+
+.otherSite{
+  display: flex;
+  justify-content: center;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+}
+
+.logoAndMypage{
+  display: flex;
+  justify-content: space-around;
+}
+
+.myPage{
+  display: flex;
+  justify-content: space-around;
+}
+
+.grade{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.shortCut{
+  display: flex;
+  justify-content: space-around;
+}
+
+.event{
+  display: flex;
+  justify-content: space-around;
+}
