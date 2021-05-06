@@ -4,45 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-
+  <link defer rel="stylesheet" href="style.css">
+  <link defer rel="preconnect" href="https://fonts.gstatic.com">
+  <link defer href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link defer rel="preconnect" href="https://fonts.gstatic.com">
+  <link defer href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 
   <title>EBSi Clone-EBSj</title>
 </head>
 <body>
   <header>
     <div class="banner">
-      <i class="fas fa-user-graduate"></i>
-      EBSj 온라인 클래스 바로가기 >
+      <span class="whiteFont">EBSj</span> <span class="yellowFont">온라인 클래스</span> <span class="whiteFont">바로가기 ></span>
     </div>
     <div class="otherSiteAndLogin">
         <li class="otherSite">
           <ul>듀너공감</ul>
+          <ul>|</ul>
           <ul>교사지원센터</ul>
         </li>
 
         <li class="login">
           <ul>홍길동님</ul>
+          <ul>|</ul>
           <ul>로그아웃</ul>
+          <ul>|</ul>
           <ul>곰포인트</ul>
+          <ul>|</ul>
           <ul>고객센터</ul>
+          <ul>|</ul>
           <ul>이벤트</ul>
-          <button>ON AIR</button>
+          <button class="onAir">ON AIR</button>
         </li>
+
     </div>
     <div class="logoAndMypage">
       <div class="logo">
-        <img src="" alt="">
-        수능 D-196
+        <video width="100" src="logo.mp4" type="video/mp4" autoplay="true"></video>
+        <span class="Dday"> | 수능 D-196</span>
       </div>
-      <input type="text" placeholder="학평 풀서비스도 역시! EBSj" class="search">
-
-      </input>
-        <li class="myPage">
+      <input type="text" placeholder="학평 풀서비스도 역시! EBSj" class="search"> </input>
+      <li class="myPage">
           <ul>나의 알림</ul>
           <ul>수강중 강좌</ul>
           <ul>나의 학습방</ul>
-        </li>
+      </li>
     </div>
       <li class="grade">
         <ul>고1</ul>
@@ -68,54 +74,36 @@
   </header>
 
   <main>
-    <div class="advertise"></div>
+    <img width="100%" class="advertise" src="adverImag.jpg">
     <div class="event">
-          <li class="word">
-            <li>
-              <ul>고교강의 리뉴얼 이벤트</ul>
-              <ul>새로운 EBSj를 새롭게 만나봄</ul>
-              <ul>2021.05.01(토) ~ 05.16(일)</ul>
-            </li>
-          </li>
-          <img src="" alt="">
-        <ul>
-          <li>
-            <ul>4월 학평 리뷰!</ul>
-            <ul>고난도 문항 대비</ul>
-            <ul>#국어.수학.영어</ul>
-            <ul>#해설및관련강의</ul>
-          </li>
-          <li class="icon">
-            <img src="" alt="">
-            <img src="" alt="">
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <ul>영어 내신 '1등급'</ul>
-            <ul>공부법</ul>
-            <ul>#5가지비법</ul>
-            <ul>#내신도EBSj와!</ul>
-          </li>
-          <li class="icon">
-            <img src="" alt="">
-            <img src="" alt="">
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <ul>학년별 주목!</ul>
-            <ul>3월 학평 이후</ul>
-            <ul>학습법</ul>
-            <ul>#전문가칼럼</ul>
-            <ul>#영역별점검</ul>
-          </li>
-          <li class="icon">
-            <img src="" alt="">
-            <img src="" alt="">
-          </li>
-        </ul>
-      </li>
+        <li class="adBig">
+          <ul>고교강의 리뉴얼 이벤트</ul>
+          <ul>새로운 EBSj를 새롭게 만나봄</ul>
+          <ul>2021.05.01(토) ~ 05.16(일)</ul>
+        </li>
+        <img src="" alt="">
+
+        <li class="ad">
+          <div>
+            4월 학평 리뷰! <br>
+            고난도 문항 대비<br>
+            <div class="hash">#국어.수학.영어</div>
+            <div class="hash">#해설및관련강의</div>
+          </div>
+
+
+        <li class="ad">
+          <div>
+            영어 내신<br> '1등급' <br>공부법<br>
+            <span class="hash">#5가지비법<br></span>
+            <span class="hash">#내신도EBSj와!</span>
+          </div>
+
+        <li class="ad">
+          <div>학년별 주목! <br>3월 학평 이후<br> 학습법</div>
+          <div class="hash">#전문가칼럼</div>
+          <div class="hash">#영역별점검</div>
+        </li>
     </div>
   </main>
 
