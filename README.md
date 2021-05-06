@@ -1,2 +1,2 @@
 # Practice
-Ellie's Class: Clone Coding(Youtube)
+Clone Coding: EBSi site(Only UI)
